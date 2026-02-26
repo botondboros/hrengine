@@ -85,8 +85,8 @@ Each job is scored 0–100 by Claude against your `preferences.yaml`:
 ### ✉️ Cover Letter Generation
 Four-paragraph structure enforced for every letter:
 1. Profile intro (paraphrased, role-specific)
-2. Recent AI & product experience (HTB, Google, merXu)
-3. Secondary strength (leadership, certifications, CEE expertise)
+2. Recent experience 
+3. Secondary strength 
 4. What excites me about this specific opportunity
 
 ### 📋 Application Tracker
@@ -167,30 +167,22 @@ set ANTHROPIC_API_KEY=sk-ant-your-key-here
 your_profile: "15+ years in digital transformation, product management, AI deployment..."
 
 target_roles:
-  - "Director of Product"
-  - "Head of Digital"
-  - "AI Lead"
-  - "Senior Product Manager"
+ - ...
 
 seniority:
-  - "Director"
-  - "Head of"
-  - "Senior"
+ . ...
 
 minimum_score: 42
 
 locations:
   preferred:
-    - "Remote"
-    - "Budapest"
-    - "Vienna"
-    - "Prague"
+    - ...
   excluded:
     - "On-site only outside Europe"
 
 dealbreaker_keywords:
   - "requires 10+ years in"
-  - "native German required"
+  - ...
 ```
 
 **3. Add your templates:**
